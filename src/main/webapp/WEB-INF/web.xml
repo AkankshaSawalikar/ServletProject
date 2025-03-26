@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>com.example.servlet.MyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+</servlet-mapping>
